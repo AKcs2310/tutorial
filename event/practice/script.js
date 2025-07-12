@@ -1,0 +1,17 @@
+let btn=document.querySelector("#mybutton");
+ let currmode="light";
+
+ btn.addEventListener("click",()=>{
+     if(currmode==="light"){
+         currmode="dark";
+          document.querySelector("body").style.backgroundColor="black";
+
+
+     }
+      else {
+         currmode="light";
+         document.querySelector("body").style.backgroundColor="white";
+
+      }
+
+ })
